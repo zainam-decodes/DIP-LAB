@@ -4,4 +4,5 @@ img2=cv2.imread("C:/Users/Student/Pictures/lenatest.jpeg",cv2.IMREAD_GRAYSCALE)
 cv2.imshow("Lena Image",img1)
 cv2.imshow("Lena gary scale  Image",img2)
 cv2.waitKey(0)
-cv2.destryAllWindows()
+
+cv2.destroyAllWindows()
